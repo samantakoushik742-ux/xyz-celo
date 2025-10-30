@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Screenshot 2025-10-30 144804" src="https://github.com/user-attachments/assets/5a087ffe-b087-4ed4-b218-07e8618370fa" /># XYZ Solidity Smart Contract
+# XYZ Solidity Smart Contract
 
 Welcome to the XYZ smart contract repository! This is a beginner’s project built using Solidity and deployed with [Remix IDE](https://remix.ethereum.org/). Source code and deployment/verification details are below.
 
