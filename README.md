@@ -1,99 +1,60 @@
-XYZ Solidity Smart Contract
-Overview
-This project is a beginner-level Solidity smart contract named XYZ.
-It was developed and deployed using Remix IDE, with deployment tracked on Blockscout.
+# XYZ Solidity Smart Contract
 
-Deployment Details
-Deployed Address: 0xfadd37b321161b6d61de0f700d7ede9f8d7078ec
+Welcome to the XYZ smart contract repository! This is a beginner’s project built using Solidity and deployed with [Remix IDE](https://remix.ethereum.org/). Source code and deployment/verification details are below.
 
-Deployer Address: 0x1eE398f800417075E0ea484b5F44e2f408B52A0E
+---
 
-Network/Chain ID: 11142220
+## 🚀 Deployment Information
 
-Block Number: 8530309
+- **Contract Address:** `0xfadd37b321161b6d61de0f700d7ede9f8d7078ec`
+- **Deployer Wallet:** `0x1eE398f800417075E0ea484b5F44e2f408B52A0E`
+- **Network Chain ID:** `11142220`
+- **Block Number:** `8530309`
+- **Tx Hash:** `0xe942daff3d60848c5c0e92aaacd41e637a753c0c72698b81b23e80c823ef9d22`
+- **View Contract:** Sourcify verified — [Sourcify Repo](https://repo.sourcify.dev/11142220/0xFaDD37b321161B6d61dE0f700D7eDE9F8d7078eC/)
 
-Transaction Hash: 0xe942daff3d60848c5c0e92aaacd41e637a753c0c72698b81b23e80c823ef9d22
+---
 
-You can view the contract and transaction on Blockscout:
+## ✅ Status
 
-Blockscout Contract Page
+- Contract deployed successfully and mined.
+- Contract verified by Sourcify.
+- Initial error: MetaMask Tx Signature denied (fixed by retrying and confirming signature).
+- If issues occur with gas, increase gas limit gently.
 
-Status
-✅ Deployment transaction mined and succeeded
+---
 
-✅ Sourcify verification successful
+## Getting Started
 
-⛔ Initial contract creation had an error due to: MetaMask Tx Signature: User denied transaction signature.
+### Prerequisites
 
-✅ Resubmitted, mined, and verified successfully
+- [Remix IDE](https://remix.ethereum.org/)
+- MetaMask wallet with testnet/mainnet ETH
+- Solidity 0.8.x recommended
 
-Getting Started
-Prerequisites
-Remix IDE
+### Steps to Deploy
 
-MetaMask wallet with sufficient testnet/mainnet funds
+1. Open Remix, load `XYZ.sol`.
+2. Compile the contract in the “Solidity Compiler” tab.
+3. Connect your MetaMask in “Deploy & Run Transactions”.
+4. Set network and correct gas limit.
+5. Click “Deploy” and confirm transaction in MetaMask.
+6. If declined, resubmit and confirm.
 
-Solidity 0.8.x or compatible
+### Verification
 
-Deployment Steps
-Open Remix and load the XYZ contract.
+- Sourcify automatic verification.
+- For manual verification on explorers, upload the Solidity source and metadata used for deployment.
 
-Compile the contract using the "Solidity Compiler" tab.
+---
 
-In the "Deploy & Run Transactions" tab:
+## Troubleshooting
 
-Connect your wallet (MetaMask).
+- **User denied transaction signature:** Confirm and sign with MetaMask.
+- **Not enough gas:** Increase the gas limit slightly in Remix.
+- **Verification errors:** Use the same compiler settings and version.
 
-Select the appropriate environment/network.
+---
 
-Set the gas limit as suggested by Remix.
+## File Structure
 
-Click "Deploy."
-
-If you encounter an error such as User denied transaction signature, ensure to approve the transaction in MetaMask.
-
-If you suspect a gas issue, gently increase the gas limit and retry.
-
-On successful mining, note the contract address and transaction hash.
-
-Verification
-The contract was verified via Sourcify.
-
-For re-verification or to verify on other block explorers, submit your contract's Solidity source code and metadata.
-
-Troubleshooting
-User denied transaction signature:
-Approve the signature request in MetaMask.
-
-Not enough gas:
-Increase the gas limit slightly; avoid excessive increases.
-
-Verification failed:
-Double-check the compiler version and optimization settings.
-
-File Structure
-contracts/XYZ.sol - Main Solidity contract file.
-
-README.md - This documentation file.
-
-Any JavaScript test/execution scripts for web3.js and ethers.js are located in your project's scripts directory.
-
-Libraries Available in Remix
-web3.js
-
-ethers.js
-
-You can run scripts using:
-
-js
-remix.execute()
-// or
-remix.exeCurrent()
-or right-click the script file and select Run in Remix.
-
-Resources
-Remix Docs
-
-MetaMask
-
-Sourcify
