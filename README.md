@@ -6,7 +6,7 @@ Welcome to the XYZ smart contract repository! This is a beginner’s project bui
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9f6ff414-3578-4d36-b1e5-11483d804fd5" />
 
 
-## 🚀 Deployment Information
+##  Deployment Information
 
 - **Contract Address:** `0xfadd37b321161b6d61de0f700d7ede9f8d7078ec`
 - **Deployer Wallet:** `0x1eE398f800417075E0ea484b5F44e2f408B52A0E`
@@ -17,7 +17,7 @@ Welcome to the XYZ smart contract repository! This is a beginner’s project bui
 
 ---
 
-## ✅ Status
+## Status
 
 - Contract deployed successfully and mined.
 - Contract verified by Sourcify.
